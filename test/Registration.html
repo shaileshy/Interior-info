@@ -1,0 +1,286 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1">
+
+    <link href="Style/MasterPage.css" rel="stylesheet" type="text/css">
+    <link href="Style/Custome.css" rel="stylesheet" type="text/css">
+    <link href="Style/styles.css" rel="stylesheet" type="text/css">
+    <link href="Style/Header.css" rel="stylesheet" type="text/css">
+    <link href="Style/Footer.css" rel="stylesheet" type="text/css">
+    <link href="Style/Homepage.css" rel="stylesheet" type="text/css">
+    <link href="Style/hp-slider-but.css" rel="stylesheet" type="text/css">
+    <link href="Style/hp-mnu-style.css" rel="stylesheet" type="text/css">
+    <link href="Style/Register.css" rel="stylesheet" type="text/css">
+    <link href="Style/Button.css" rel="stylesheet" type="text/css">
+
+    <title>
+        New Registration
+    </title>
+</head>
+<body>
+<div id="loader" class="overlay" style="display: none">
+    <div class="loaderImg" style="position: fixed; top: 50%; left: 50%">
+    </div>
+</div>
+<form method="post" action="" onsubmit="" id="form">
+    <div class="nav-bar-left">
+        <a href="http://interiorsinfo.com/HomePage.aspx" title="InteriorsInfo.com">
+            <img class="IILogo" src="Images/Logo/IILogo-Ver-4.png" alt="InteriorsInfo.com" title="InteriorsInfo.com logo">
+        </a>
+    </div>
+    <div class="nav-bar-right">
+    </div>
+    <div class="nav-bar-middle">
+
+        <div class="nav-bar-middle-inner">
+            <div class="tagline-hp" style="padding-top: 10px;">
+                India’s First Interiors Information Website
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="dvIDSuccess" class="dvSuccess" style="display: none; position: fixed; top: 20px;
+        left: 10%; width: 80%; z-index: 100000;">
+            <span id="lblSucessMsg"></span><a onclick="HideMessage();" href="#" style="position: absolute;
+            right: 10px; top: 4px;">
+            <img width="18px" height="18px" style="border-style: none" src="images/close-button.jpg">
+        </a>
+        </div>
+        <div id="divLoginType" class="tagline-hp" style="padding-top: 45px;">Product Vendor Registration</div>
+        <br>
+        <div id="pnlRegister">
+
+            <div id="divTop">
+                <div id="vlSum" style="display:none;">
+
+                </div>
+                <table id="tblMain" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <tbody><tr>
+                        <td align="left" style="width: 40%">
+                            <div class="div-inner">
+                                <input name="ctl00$ContentPlaceHolder1$txtLong" type="hidden" id="txtLong">
+                                <input name="ctl00$ContentPlaceHolder1$txtLat" type="hidden" id="txtLat">
+                                <input name="ctl00$ContentPlaceHolder1$txtCustType" type="hidden" id="txtCustType" value="1">
+                                <div id="Div1" class="label-font" style="background-position: 6px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtName" type="text" id="txtName" tabindex="1" class="txtbox" placeholder="Contact Person Name">
+                                </div>
+                                <br>
+                                <div id="Div14" class="label-font" style="background-position: 6px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtShopName" type="text" id="txtShopName" tabindex="1" class="txtbox" placeholder="Shop Name">
+                                </div>
+                                <br>
+                                <div id="Div2" class="label-font" style="background-position: -367px 0px;">
+                                    &nbsp;
+                                    <select name="ctl00$ContentPlaceHolder1$ddlGender" id="ddlGender" tabindex="2" class="txtbox" style="height: 25px; width: 148px">
+                                        <option value="1">Male</option>
+                                        <option value="2">Female</option>
+
+                                    </select>
+                                </div>
+                                <div id="Div12" class="label-font" style="background-position: -400px 0px; margin-left: 29px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtDOB" type="text" maxlength="10" id="txtDOB" tabindex="2" title="dd-mm-yyyy format only" class="txtbox hasDatepicker" placeholder="Date of Birth" style="width: 140px">
+                                </div>
+                                <br>
+                                <div id="Div4" class="label-font" style="background-position: -27px 0px;">
+                                    &nbsp;
+                                    <select name="ctl00$ContentPlaceHolder1$ddlCountry" id="ddlCountry" tabindex="3" class="txtbox" style="height: 25px;
+                                    width: 338px">
+                                        <option value="IN">India</option>
+
+                                    </select>
+                                </div>
+                                <br>
+                                <div id="Div11" class="label-font" style="background-position: -27px 0px;">
+                                    &nbsp;
+                                    <select name="ctl00$ContentPlaceHolder1$ddlState" id="ddlState" tabindex="4" class="txtbox" style="height: 25px; width: 338px">
+                                        <option value="-1">Select State</option>
+                                        <option value="1">Andhra Pradesh</option>
+                                        <option value="2">Arunachal Pradesh</option>
+                                        <option value="3">Andaman and Nicobar Islands</option>
+                                        <option value="4">Assam</option>
+                                        <option value="5">Bihar</option>
+                                        <option value="6">Chandigarh</option>
+                                        <option value="7">Chhattisgarh</option>
+                                        <option value="8">Dadar and Nagar Haveli</option>
+                                        <option value="9">Daman and Diu</option>
+                                        <option value="10">Delhi</option>
+                                        <option value="11">Goa</option>
+                                        <option value="12">Gujarat</option>
+                                        <option value="13">Haryana</option>
+                                        <option value="14">Himachal Pradesh</option>
+                                        <option value="15">Jammu and Kashmir</option>
+                                        <option value="16">Jharkhand</option>
+                                        <option value="17">Karnataka</option>
+                                        <option value="18">Kerala</option>
+                                        <option value="19">Lakshadeep</option>
+                                        <option value="20">Madya Pradesh</option>
+                                        <option value="21">Maharashtra</option>
+                                        <option value="22">Manipur</option>
+                                        <option value="23">Meghalaya</option>
+                                        <option value="24">Mizoram</option>
+                                        <option value="25">Nagaland</option>
+                                        <option value="26">Orissa</option>
+                                        <option value="27">Pondicherry</option>
+                                        <option value="28">Punjab</option>
+                                        <option value="29">Rajasthan</option>
+                                        <option value="30">Sikkim</option>
+                                        <option value="31">Tamil Nadu</option>
+                                        <option value="32">Tripura</option>
+                                        <option value="33">Uttaranchal</option>
+                                        <option value="34">Uttar Pradesh</option>
+                                        <option value="35">West Bengal</option>
+
+                                    </select>
+                                </div>
+                                <br>
+                                <div id="Div15" class="label-font" style="background-position: -27px 0px;">
+                                    &nbsp;
+                                    <select name="ctl00$ContentPlaceHolder1$ddlCity" id="ddlCity" tabindex="5" class="txtbox" style="height: 25px; width: 338px">
+                                        <option value="-1">Select City</option>
+
+                                    </select>
+                                    <input name="ctl00$ContentPlaceHolder1$txtCity" type="hidden" id="txtCity">
+                                </div>
+                                <br>
+                                <div id="Div3" class="label-font" style="background-position: -27px 0px;">
+                                    &nbsp;
+                                    <textarea name="ctl00$ContentPlaceHolder1$txtAddress" id="txtAddress" class="txtbox" placeholder="Address" style="height: 23px" columns="40" rows="4" tabindex="6"></textarea>
+                                </div>
+                                <br>
+                                <div id="Div16" class="label-font" style="background-position: -27px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtPinCode" type="text" maxlength="6" id="txtPinCode" tabindex="8" class="txtbox" placeholder="PinCode" style="width: 140px">
+                                </div>
+                                <div id="Div7" class="label-font" style="background-position: -158px 0px; margin-left: 30px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtMobile" type="text" maxlength="10" id="txtMobile" tabindex="9" class="txtbox" placeholder="Mobile No" style="width: 140px">
+                                </div>
+                                <br>
+                                <div id="Div18" class="label-font" style="background-position: 6px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtUserName" type="text" maxlength="100" id="txtUserName" tabindex="10" class="txtbox" placeholder="User Name">
+                                </div>
+                                <br>
+                                <div id="Div17" class="label-font" style="background-position: -61px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtEmail" type="text" maxlength="100" id="txtEmail" tabindex="11" class="txtbox" placeholder="Email Id" data-validation="email">
+                                </div>
+                                <br>
+                                <div id="Div5" class="label-font" style="background-position: -97px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtPassword" type="password" maxlength="30" id="txtPassword" tabindex="12" class="txtbox" placeholder="Password" data-validation="strength" data-validation-strength="3" style="width: 160px">
+                                </div>
+                                <div id="Div21" class="chkbox txt-tnc" style="margin-left: 29px;">
+                                    <input id="chkPEmail" type="checkbox" name="ctl00$ContentPlaceHolder1$chkPEmail" tabindex="15">&nbsp;Promotional
+                                    eMail
+                                </div>
+                                <br>
+                                <div id="Div6" class="label-font" style="background-position: -97px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtPasswordCon" type="password" maxlength="30" id="txtPasswordCon" tabindex="13" class="txtbox" placeholder="Confirm Password" data-validation="confirmation" style="width: 160px">
+                                </div>
+                                <div id="Div22" class="chkbox txt-tnc" style="margin-left: 29px;">
+                                    <input id="chkPSms" type="checkbox" name="ctl00$ContentPlaceHolder1$chkPSms" tabindex="16">&nbsp;Promotional
+                                    SMS
+                                </div>
+                                <br>
+                                <div id="Div8" class="label-font" style="background-position: -194px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtCaptcha" type="text" id="txtCaptcha" tabindex="14" class="txtbox" placeholder="Type the words shown" style="width: 160px">
+                                </div>
+                                <div id="Div9" class="chkbox" style="margin-left: 29px;">
+                                    <a id="lnkTerms" target="_blank" href="Iitnc.aspx" class="txt-tnc">
+                                        <input id="chkTerms" type="checkbox" name="ctl00$ContentPlaceHolder1$chkTerms" tabindex="17">
+                                        Terms and Conditions</a>
+                                </div>
+                                <br>
+                                <div id="Div10" style="padding-left: 20px">
+                                    <div id="updpanel">
+
+                                        <table border="0" cellpadding="0" cellspacing="5" style="width: 250px;
+                                    height: 60px">
+
+                                            <tbody><tr>
+                                                <td style="font-size: 10pt; height: 16px">
+                                                    <img id="imgCaptcha" src="CapchaHandler.ashx?w=300&amp;h=40&amp;c=YHruk02zox0MSYGmfc+h2Q==&amp;bc=ffffff">
+                                                </td>
+                                                <td style="text-align: center">
+                                                    <input type="image" name="ctl00$ContentPlaceHolder1$Captcha1$imgReferesh" id="imgReferesh" src="Images/Buttons/Resend-clr.png" onclick="">
+                                                </td>
+                                            </tr>
+
+
+                                            </tbody></table>
+
+                                    </div>
+                                    <div id="UpdateProgress1" style="display:none;" role="status" aria-hidden="true">
+
+                                        <div id="loader2" class="overlay" style="display: block">
+                                            <div class="loaderImg" style="position: fixed; top: 50%; left: 50%">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <br>
+                                <div id="Div19" class="label-font" style="background-position: -194px 0px;">
+                                    &nbsp;
+                                    <input name="ctl00$ContentPlaceHolder1$txtPromoCode" type="text" maxlength="8" id="txtPromoCode" tabindex="14" class="txtbox" placeholder="Promo Code">
+                                </div>
+                                <br>
+                                <div id="Div13" style="width: inherit; border: 0px solid yellow;">
+                                    <div class="pb" style="display: inline-block;">
+                                        <div class="progress">
+                                            <a id="btnSave" tabindex="15" href=''>
+                                                <div class="done" id="dvSave">
+                                                    <img src="Images/Buttons/Tick.png" class="img-set">&nbsp;Submit
+                                                </div>
+                                            </a>
+                                        </div>
+                                        Submit
+                                    </div>
+                                    <div class="pb" style="display: inline-block;">
+                                        <div class="progress">
+                                            <a id="btnCancel" tabindex="20" href=''>
+                                                <div class="done" id="dvCancel">
+                                                    <img src="Images/Buttons/Cross.png" class="img-set">&nbsp;Cancel
+                                                </div>
+                                            </a>
+                                        </div>
+                                        Cancel
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="display: none">
+                                <input name="ctl00$ContentPlaceHolder1$txtType" type="hidden" id="txtType">
+                                <span id="valPincode" style="color:Red;visibility:hidden;">Please enter proper pincode.</span>
+
+                                <span id="valEmail" style="visibility:hidden;">*</span>
+                                <span id="valMobile" style="visibility:hidden;">*</span>
+                            </div>
+                        </td>
+                        <td valign="top" width="60%">
+                            <div id="map_canvas" style="width: 675px; height: 448px; float: right; position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; overflow: hidden; width: 100%; height: 100%; z-index: 0; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 82px; top: 95px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 338px; top: 95px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 338px; top: -161px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 82px; top: -161px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 82px; top: 351px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 338px; top: 351px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -174px; top: 95px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 594px; top: 95px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -174px; top: 351px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 594px; top: -161px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -174px; top: -161px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 594px; top: 351px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 82px; top: 95px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 338px; top: 95px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 338px; top: -161px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 82px; top: -161px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 82px; top: 351px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 338px; top: 351px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -174px; top: 95px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 594px; top: 95px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -174px; top: 351px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 594px; top: -161px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -174px; top: -161px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 594px; top: 351px;"></div></div></div><div style="width: 22px; height: 40px; overflow: hidden; position: absolute; left: 327px; top: 184px; z-index: 224;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 22px; height: 40px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden; width: 675px; height: 448px;"><img src="https://maps.googleapis.com/maps/api/js/StaticMapService.GetMapImage?1m2&amp;1i148440750&amp;2i196332449&amp;2e1&amp;3u21&amp;4m2&amp;1u675&amp;2u448&amp;5m5&amp;1e0&amp;5sen-US&amp;6sus&amp;10b1&amp;12b1&amp;token=14518" style="width: 675px; height: 448px;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 82px; top: 95px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579847!3i766924!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=47646" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 338px; top: 95px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579848!3i766924!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=51241" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 338px; top: -161px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579848!3i766923!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=15220" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 82px; top: -161px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579847!3i766923!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=11625" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 82px; top: 351px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579847!3i766925!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=83667" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 338px; top: 351px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579848!3i766925!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=87262" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -174px; top: 95px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579846!3i766924!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=44051" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 594px; top: 95px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579849!3i766924!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=54836" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -174px; top: 351px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579846!3i766925!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=80072" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 594px; top: -161px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579849!3i766923!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=18815" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -174px; top: -161px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579846!3i766923!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=8030" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 594px; top: 351px; transition: opacity 200ms ease-out;"><img src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i21!2i579849!3i766925!4i256!2m3!1e0!2sm!3i371036385!3m9!2sen-US!3sUS!5e18!12m1!1e47!12m3!1e37!2m1!1ssmartmaps!4e0&amp;token=90857" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 2; width: 100%; height: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 3; width: 100%; height: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 4; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"><div class="gmnoprint" style="width: 22px; height: 40px; overflow: hidden; position: absolute; opacity: 0.01; left: 327px; top: 184px; z-index: 224;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi.png" draggable="false" usemap="#gmimap0" style="position: absolute; left: 0px; top: 0px; width: 22px; height: 40px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"><map name="gmimap0" id="gmimap0"><area href="javascript:void(0)" log="miw" coords="8,0,5,1,4,2,3,3,2,4,2,5,1,6,1,7,0,8,0,14,1,15,1,16,2,17,2,18,3,19,3,20,4,21,5,22,5,23,6,24,7,25,7,27,8,28,8,29,9,30,9,33,10,34,10,40,11,40,11,34,12,33,12,30,13,29,13,28,14,27,14,25,15,24,16,23,16,22,17,21,18,20,18,19,19,18,19,17,20,16,20,15,21,14,21,8,20,7,20,6,19,5,19,4,18,3,17,2,16,1,14,1,13,0,8,0" shape="poly" title="Map Your Location" style="cursor: pointer;"></map></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=43.459336,-80.462494&amp;z=21&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 188px; top: 134px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 173px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2017 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 97px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div style="cursor: pointer; width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@43.459336,-80.462494,21z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><div title="Zoom in" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><div title="Zoom out" style="position: relative; width: 28px; height: 27px; left: 0px; top: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></div></div></div><div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;) 8 8, default; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; cursor: pointer; background-color: rgb(255, 255, 255); display: none;"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);"><img src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left;"><div draggable="false" title="Show street map" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; min-width: 21px; font-weight: 500;">Map</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; position: absolute; left: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Show street map with terrain" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden; display: none;"><img src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Terrain</label></div></div></div><div class="gm-style-mtc" style="float: left;"><div draggable="false" title="Show satellite imagery" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; -webkit-background-clip: padding-box; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; border-left: 0px; min-width: 37px;">Satellite</div><div style="background-color: white; z-index: -1; padding: 2px; border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; box-shadow: rgba(0, 0, 0, 0.298039) 0px 1px 4px -1px; position: absolute; right: 0px; top: 29px; text-align: left; display: none;"><div draggable="false" title="Show imagery with street names" style="color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 6px 8px 6px 6px; direction: ltr; text-align: left; white-space: nowrap;"><span role="checkbox" style="box-sizing: border-box; position: relative; line-height: 0; font-size: 0px; margin: 0px 5px 0px 0px; display: inline-block; background-color: rgb(255, 255, 255); border: 1px solid rgb(198, 198, 198); border-radius: 1px; width: 13px; height: 13px; vertical-align: middle;"><div style="position: absolute; left: 1px; top: -2px; width: 13px; height: 11px; overflow: hidden;"><img src="https://maps.gstatic.com/mapfiles/mv/imgs8.png" draggable="false" style="position: absolute; left: -52px; top: -44px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 68px; height: 67px;"></div></span><label style="vertical-align: middle; cursor: pointer;">Labels</label></div></div></div></div></div></div></div>
+                        </td>
+                    </tr>
+                    </tbody></table>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="ftrftr">
+        <div class="footerBottom">
+            <div class="footerBotContent" align="center">
+                Copyright © 2014-<span id="spnYear">17</span> by Interiorsinfo E Commerce LLP. All Rights Reserved &nbsp;&nbsp;
+                <a id="btnTermsofuse" href="Iitnc.aspx" target="_blank">Terms of use</a> | <a href="IieCllpPriPol.aspx" target="_blank">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+</form>
+<div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all"></div>
+</body>
+</html>

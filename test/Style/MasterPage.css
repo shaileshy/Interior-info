@@ -1,0 +1,112 @@
+.logo-text
+{
+    color: #000;
+    font: bold 16px Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: relative;
+    top: 0px;
+}
+.logo_class
+{
+    background: url('../Images/logo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 57px;
+    height: 55px;
+    margin: 0 auto;
+    display: block;
+}
+
+.Top_Wrap
+{
+    padding-right: 0.5cm;
+    height: 70px;
+    border-top: 1px solid #e2e2e2;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: url('../images/1px_brandHeaderBg.gif');
+}
+
+.Top_Left
+{
+    display: block;
+    float: left;
+}
+
+.Top_Right
+{
+    display: block;
+    float: right;
+    width: 430px;
+    text-align: right;
+}
+.page
+{
+    background-color: white;
+    min-height: 510px;
+    margin-bottom: 15px;
+}
+
+.footerBottom
+{
+    display: block;
+}
+
+.footerBottom .footerBotContent
+{
+    height: 25px;
+    line-height: 25px;
+    /*background-color: #dadada;*/
+    border-top: 1px solid #4d4d4d;
+    color: #4d4d4d;
+    font-size: 10px;
+}
+
+.footerBottom .footerBotContent p
+{
+    text-align: right;
+    color: #333;
+    font-size: 11px;
+    font-family: Arial;
+    margin-top: 0px;
+    display: block;
+}
+.pageHeader
+{
+    width: 250px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-variant: small-caps;
+    color: #FF0040;
+}
+/*menu style*/
+#HeaderMenu li
+{
+    /*background-color: #eaeaea;*/
+    background-image: url(../images/1px_summaryWizardBg.gif);
+    border-bottom: 1px solid #dedede;
+    font: normal 13px Arial,Helvetica,sans-serif;
+    margin: 0px;
+    display: table;
+    width: 230px;
+}
+#HeaderMenu a
+{
+    color: Black;
+    padding: 5px;
+}
+/*.menuItem:hover*/
+#HeaderMenu a:hover, #HeaderMenu li:hover
+{
+    background-color: #FBEFEF;
+}
+.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}
+@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}
+.gm-style img{max-width:none}

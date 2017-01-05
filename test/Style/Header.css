@@ -1,0 +1,321 @@
+.sugg-div
+{
+    border: 1px solid #0D93D6;
+    border-top: none;
+    padding: 5px;
+    text-align: left;
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    line-height: 18px;
+    position: absolute;
+    top: -1px;
+}
+
+.opt-disabled
+{
+    color: Red;
+}
+
+.logo-3
+{
+    color: #0D93D6; /*Black;*/
+    font-size: xx-small;
+}
+
+.logo-2
+{
+    color: #0D93D6; /*#F4FF7E;*/
+}
+
+.logo-1
+{
+    color: #0D93D6; /*white-space;*/
+}
+
+.logo-text
+{
+    display: inline;
+    font-size: 24px;
+    font-family: "Trajan Pro 3";
+    color: #0D93D6;
+}
+
+.tagline
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: "arial" , "verdana"; /*font-weight:bold;*/
+    font-variant: small-caps;
+    font-size: 18px;
+    color: #444444; /*purple; #FFFFFF;*/
+    margin-top: 3px;
+    visibility: visible;
+}
+
+a:hover
+{
+    color: #0D93D6;
+    background-color: white;
+}
+
+a
+{
+    font-weight: bold;
+    font-family: "Arial", "Verdana";
+}
+
+.nav-button-outer
+{
+    position: relative; /*float: left;*/
+    top: 0px;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    height: 20px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 1px;
+    border: 0px solid black;
+    text-decoration: none;
+    cursor: pointer;
+    -border-radius: 3px 3px 3px 3px;
+}
+
+.IILogo
+{
+    width: 85px;
+    height: 130px;
+    visibility: visible;
+}
+
+.nav-bar-right
+{
+    position: relative;
+    float: right;
+    width: inherit;
+    display: inline-block;
+    padding: 14px 0px 0px 25px;
+    border: 0px solid yellow;
+    text-align: right;
+    font-size: 12px;
+}
+
+.nav-bar-left
+{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+    width: auto;
+    padding: 0px 27px 0px 0px;
+    border: 0px solid yellow;
+}
+
+.nav-bar-middle-inner
+{
+    width: auto;
+    display: block;
+    border: 0px solid yellow;
+}
+
+.nav-bar-middle
+{
+    width: auto;
+    height: 85px;
+    padding: 15px 0px;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    white-space: nowrap;
+    border: 0px solid yellow;
+}
+
+.nav-submit-input
+{
+    display: inline-block;
+    height: 100%; /*line-height: 33px;*/
+    margin: 0px 0px;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none; /*text-shadow: 0 -1px 0 rgba(0,0,0,0.25);*/
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    font-family: "arial" , "sans-serif"; /*vertical-align: middle;*/
+    text-align: center;
+    width: 27px;
+    background-image: url(../images/Srch-but.png); /*global-sprite-32-v1._V351555192_.png);*/ /*background-position: -40px 508px;*/
+}
+
+.nav-submit-button
+{
+    float: right;
+    display: inline-block;
+    position: relative; /*-webkit-box-sizing: border-box;*/
+    height: 35px;
+    width: auto;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    border: 0px solid; /*border-color: #485059 #2c3137 #363c43 #485059;*/ /*background-color: #5b626a;*/
+    border-radius: 0 3px 3px 0; /*background-position: 0px -361px;*/
+    left: -1px;
+}
+
+.nav-searchbar-inner
+{
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-box-sizing: border-box;
+    width: auto;
+    margin: 2px 0px 0px;
+}
+
+.twotabsearchtextbox
+{
+    position: absolute; /*-webkit-box-sizing: border-box;*/
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    font-family: "arial" , "sans-serif";
+    font-size: 14px;
+    background: transparent;
+    color: #333;
+    outline: none; /*-webkit-appearance: none;*/
+    box-shadow: none;
+}
+
+.nav-iss-attach
+{
+    position: relative;
+    padding: 0; /*height: 100%;*/
+    white-space: normal;
+}
+
+.nav-searchfield-width
+{
+    width: auto; /*-webkit-box-sizing: border-box;*/
+    height: 33px;
+    overflow: hidden;
+    border-top: 1px solid #0D93D6;
+    border-bottom: 1px solid #0D93D6;
+    background: white;
+    position: relative;
+    left: -1px;
+}
+
+.nav-facade-active
+{
+    left: 0;
+    top: 0;
+    height: 33px;
+    cursor: pointer;
+    width: auto;
+}
+
+.nav-sprite
+{
+    background-image: url(../images/global-sprite-32-v1._V351555192_.png);
+    background-position: 0 1000px;
+    background-repeat: repeat-x;
+}
+
+.ddBox
+{
+    font-family: "arial" , "sans-serif";
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    padding: 0; /*outline: none;*/
+    height: 33px;
+    cursor: pointer;
+    width: auto;
+    opacity: 0;
+    visibility: visible;
+    top: 0px;
+}
+
+select
+{
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    align-items: center;
+    border: 1px solid;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    border-radius: 0px;
+    border-color: rgb(169, 169, 169);
+}
+
+.nav-search-in
+{
+    float: left;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    height: 33px;
+    overflow: hidden;
+    border: 1px solid #0D93D6;
+}
+
+.nav-search-bord
+{
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.ddlMain
+{
+    color: #777;
+    font-size: 12px;
+    white-space: nowrap;
+    font-family: "arial" , "sans-serif";
+    text-indent: 1px;
+    height: 33px;
+    margin: 0 21px 0 9px;
+    line-height: 33px; /*text-overflow: ellipsis;*/ /*border: 1px solid #cdcdcd;*/
+}
+
+.nav-down-arrow
+{
+    border-style: solid;
+    border-width: 4px;
+    border-color: transparent;
+    border-top: 4px solid #a0a0a0;
+    border-bottom-width: 0;
+    width: 0;
+    height: 0;
+    font-size: 10;
+    line-height: 0;
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    display: block;
+}
+
+hr
+{
+    border-color: #C0C0C0;
+}
+
+body
+{
+    background-color: White; /*#0D93D6;*/
+}

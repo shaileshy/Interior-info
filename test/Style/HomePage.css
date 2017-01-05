@@ -1,0 +1,79 @@
+body
+{
+    font-family: Arial;
+}
+
+.sn-disp
+{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.soc-net
+{
+    float: left;
+}
+
+.fb-rnd-bord
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.login
+{
+    float: right;
+}
+
+.logo
+{
+    text-align: center;
+}
+
+.SrchBar
+{
+    width: 92%;
+    text-align: center;
+    padding: 30px 40px 40px 40px;
+    display: block;
+    border: 0px solid red;
+}
+
+.tagline-hp
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: "Times New Roman";
+    letter-spacing: 3px; /*font-weight:bold;*/
+    font-variant: small-caps;
+    font-size: 28px;
+    color: #4d4d4d; /*purple; #FFFFFF;*/ /*margin-top: 30px;*/
+    visibility: visible;
+}
+
+.div-button
+{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    display: block;
+}
+
+.img-set
+{
+    vertical-align: middle;
+}
+
+.soc-net-bottom
+{
+    margin-top: 10px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-image: url(../images/social-icons.jpg);
+    background-size: 200px 100px;
+    cursor: pointer;
+    margin: 20px;
+}
